@@ -1,0 +1,107 @@
+ body{
+ 	width: 100%;
+ 	height: 100vh;
+ 	font-family: 'Pangolin', cursive;
+ }
+ header{
+ 	height: 120px;
+ 	background: #222;
+ }
+ p{
+ 	font-family: 'Pangolin', cursive;
+ }
+ .logo{
+ 	text-align: center;
+ 	color: #FFF;
+ 	font-size: 36px;
+ 	font-weight: inherit, bolder;
+ 	padding-top: 20px;
+ 	font-family: 'Pangolin', cursive;
+ }
+ .img{
+ 	display: flex;
+ 	flex-direction:column; 
+ 	align-items: center;
+ 	background: #fefcf2;
+ 	padding-bottom: 30px;
+ }
+ .img_logo{
+ 	max-width: 250px;
+ 	width: 100%;
+ 	min-height: 250px;
+ 	height: 100%;
+ 	border-radius: 165px;
+ 	position: relative;
+ 	top: -37px;
+ }
+ .img p{
+ 	font-size: 22px;
+ 	font-weight: bolder;
+ 	font-family: 'Pangolin', cursive;
+ }
+ .visit{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ }
+ .visit div{
+ 	flex: 1;
+ 	border: 2px solid lightgrey;
+ 	margin: 50px 100px ;
+ 	padding: 50px;
+    border-radius: 27px;
+ 	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ 	transition: 1s;
+ }
+ .visit div:hover{
+ 	transform: scale( 1.1);
+ }
+ .visit div p{
+ 	font-size: 17px;
+ 	font-family: 'Pangolin', cursive;
+ }
+ .curs{
+ 	display: flex;
+ }
+ h1{
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	transition: 2s;
+ 	color: #222;
+ 	font-family: 'Pangolin', cursive;
+ }
+ h1:hover{
+ 	transform: scale( 1.3);
+ }
+ .inform p{
+ 	border-bottom: 3px solid #222;
+ 	box-shadow: rgba(46, 166, 240, 0.4) -5px 5px, rgba(46, 107, 240, 0.3) -10px 10px, rgba(46, 104, 240, 0.2) -15px 15px, rgba(49, 46, 240, 0.1) -20px 20px, rgba(46, 185, 240, 0.05) -25px 25px;
+    transition: 1s;
+ }
+ .inform p:hover{
+ 	transform: scale( 1.1);
+ }
+ .container{
+ 	padding-bottom: 50px;
+ 	margin-bottom: 50px;
+ 	border-bottom: 2px solid #222;
+ }
+ .carousel{
+ 	margin: 0 auto;
+ 	width: 60%;
+ }
+ .footer_div{
+	margin-top: 30px;
+	width: 100%;
+	min-height: 170px;
+	height: auto;
+	background-image: url(fone3.jpeg);
+ }
+ .footer_div p,
+ .footer_div h2{
+	color: rgb(215, 215, 215);
+	margin-left: 50px;
+ }
+ .footer_div h2{
+	padding-top: 30px;
+ }
